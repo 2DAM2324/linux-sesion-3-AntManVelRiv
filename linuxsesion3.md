@@ -119,7 +119,7 @@ alias ne='echo $(ls -1 | wc -l)'
 ```bash
 alias ne='echo $(ls -1 ~ | wc -l)'
 ```
-*`Ejercicio 9: Indique la línea de orden necesaria para buscar todos los archivos a partir del directorio home que tengan un tamaño menor de un bloque.`* 
+*Ejercicio 9: `Indique la línea de orden necesaria para buscar todos los archivos a partir del directorio home que tengan un tamaño menor de un bloque.`* 
 ```bash
 find ~/ -type f -size -1k
 ```
